@@ -110,11 +110,15 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .text-input{
+    width: 70%;
+  }
   .input-texto {
     font-size: 14px;
   }
   .copyright {
     margin: 0;
     font-size: 12px;
+    border-radius: 0;
   }
 }
