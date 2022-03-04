@@ -47,11 +47,13 @@ body {
 .input-texto {
   margin: 0;
   padding: 0px;
-  /*background-color: rgb(255, 175, 70);*/
+  
   font-size: 20px;
+  
 }
 .text-input {
   margin: 10px 10px 10px 5px;
+  
 }
 .btn {
   border: 0;
@@ -68,7 +70,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.2);
   display: block;
   padding: 0.5em;
-  width: 100%;
+  width: 80%;
   height: 50px;
 }
 .copyright {
