@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Bienvenidos a ¡Código secreto!</h1>
+
+  <div class="parrafo">
+    <p>Decime qué pensas, y yo encriptaré tus palabras</p>
+  </div>
+  <main class="main">
+   <section class="form box">
+      <form action="">
+        <label class ="input-texto">Solo letras minúsculas, sin tilde ni caracteres especiales</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"
+          required autocomplete="off" onkeypress="return( event.charCode == 32 || event.charCode >= 97 && event.charCode <= 122)" min="1">
+        <input class="btn" type="button" value="Encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar!" id="btn-desencriptar">
+
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label class ="input-texto">Mensaje Encriptado/Desencriptado, ¡Puedes copiarlo!</label>
+      <input class="text-input" type="text" id="msg" placeholder="Resultado" ></input>
+      <input class="btn" type="button" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <footer class="copyright">
+    <p>Hecho por Manchali Damián Ezequiel</p>
+    <p>Agradecimientos al Equipo Alura Latam y a Oracle</p>
+    <div class="social">
+      <a href="https://twitter.com" class="social-link icon-twitter"></a>
+      <a href="https://facebook.com/damian.manchali" class="social-link icon-facebook"></a>
+      <a href="https://github.com/alex-nowsky" class="social-link icon-github"></a>
+      <a href="https://instagram.com/dami_manchali" class="social-link icon-instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>
